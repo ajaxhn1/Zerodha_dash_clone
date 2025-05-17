@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Only navbar -->
+    <header>
+      <nav>
+        <div class="niftysensexbar">
+          <div class="nifty">
+            <p class="nifty50">NIFTY 50</p>
+            <p class="niftyprice">24008.00</p>
+            <p class="niftypercentage">-265.80(-1.10%)</p>
+          </div>
+          <div class="nifty">
+            <p class="nifty50">SENSEX</p>
+            <p class="niftyprice">79454.47</p>
+            <p class="niftypercentage">-880.34(-1.10%)</p>
+          </div>
+        </div>
+        <!-- Dashboard Navigation  -->
+        <div class="dashboardnavigation">
+          <div class="logo">
+            <img src="Zerodha_logo.png" alt="zerodha logo" />
+          </div>
+          <div class="navmenu">
+            <ul class="listmenu">
+              <li><a href="#">Dashboard</a></li>
+              <li><a href="#">Orders</a></li>
+              <li><a href="#">Holdings</a></li>
+              <li><a href="#">Positions</a></li>
+              <li><a href="#">Bids</a></li>
+              <li><a href="#">Funds</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--3. Profile details -->
+        <div class="profiledetails">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <i class="fa-solid fa-bell"></i>
+          <i class="fa-solid fa-user"></i>
+          <p class="profileID">PU666</p>
+        </div>
+      </nav>
+    </header>
+    <div class="leftemptyspace"></div>
+
+    <!-- Side bar -->
+
+    <sidebar>
+      <div class="sidebarfull">
+        <div class="searchbar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="text"
+            placeholder="Search eg: infy bse, nifty fut, index fund, etc"
+          />
+          <p class="outof">2/100</p>
+        </div>
+
+        <div class="stock1">
+          <div class="stockname">
+            <p>NH</p>
+          </div>
+          <div class="stockchangenumbers">
+            <p>-10.60</p>
+            <p>-0.59%</p>
+            <i class="fa-solid fa-angle-down"></i>
+            <p>1779.10</p>
+            <div class="hover-panel">
+              <button class="buy">B</button>
+              <button class="sell">S</button>
+              <button class="bars">
+                <i class="fa-solid fa-bars-staggered"></i>
+              </button>
+              <button class="trend">
+                <i class="fa-solid fa-arrow-trend-up"></i>
+              </button>
+              <button class="trash"><i class="fa-solid fa-trash"></i></button>
+              <button class="ellipse">
+                <i class="fa-solid fa-ellipsis"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="stock2">
+          <div class="stockname">
+            <p>SRF</p>
+          </div>
+          <div class="stockchangenumbers">
+            <p>51.50</p>
+            <p>-0.34%</p>
+            <i class="fa-solid fa-angle-up"></i>
+            <p>3014.10</p>
+            <div class="hover-panel">
+              <button class="buy">B</button>
+              <button class="sell">S</button>
+              <button class="bars">
+                <i class="fa-solid fa-bars-staggered"></i>
+              </button>
+              <button class="trend">
+                <i class="fa-solid fa-arrow-trend-up"></i>
+              </button>
+              <button class="trash"><i class="fa-solid fa-trash"></i></button>
+              <button class="ellipse">
+                <i class="fa-solid fa-ellipsis"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="paginationbar">
+          <ul class="pagemenu">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+            <li><a href="#">7</a></li>
+            <li class="setting"><i class="fa-solid fa-gear"></i></li>
+          </ul>
+        </div>
+      </div>
+    </sidebar>
+
+    <!-- main Bar  -->
+    <main>
+      <div class="anchorlogo">
+        <img class="anchor" src="anchor.png" alt="" />
+      </div>
+      <div class="positiontext">
+        <p class="position">You don't have any positions yet</p>
+      </div>
+      <div class="button">
+        <button>Get started</button>
+      </div>
+      <div class="analytics">
+        <img src="analytics.svg" alt="analytics Icon" />
+        <a href="#">Analytics</a>
+      </div>
+    </main>
+    <div class="rightemptyspace"></div>
+  </body>
+</html>
